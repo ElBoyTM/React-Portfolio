@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Portfolio = () => {
+export default function Portfolio() {
     return (
         <div>
             <h1>My Portfolio</h1>
@@ -13,5 +11,3 @@ const Portfolio = () => {
         </div>
     );
 };
-
-export default Portfolio;
