@@ -48,3 +48,5 @@ function NavTabs() {
         </ul>
     );
 }
+
+export default NavTabs;
