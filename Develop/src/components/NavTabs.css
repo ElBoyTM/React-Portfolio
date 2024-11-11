@@ -16,3 +16,12 @@
     background-color: purple;
     color: white;
 }
+
+.nav-link {
+    color: rgb(255, 5, 255);
+    text-decoration: none;
+}
+
+.nav-item:hover .nav-link {
+    color: white;
+}
