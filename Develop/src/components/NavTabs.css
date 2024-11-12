@@ -25,4 +25,5 @@
 
 .nav-item:hover .nav-link {
     color: white;
+    background-color: purple;
 }
