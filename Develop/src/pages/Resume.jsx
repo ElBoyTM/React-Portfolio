@@ -3,7 +3,7 @@ export default function Resume() {
         <div>
             <h1>Resume</h1>
             <a href="/path/to/your/resume.pdf" download>Download Resume</a>
-            <h2>Proficiencies</h2>
+            <h2>My skills:</h2>
             <ul>
                 <li>JavaScript</li>
                 <li>React</li>
@@ -12,7 +12,6 @@ export default function Resume() {
                 <li>Git</li>
                 <li>REST APIs</li>
                 <li>SQL</li>
-                <li>MongoDB</li>
             </ul>
         </div>
     );
