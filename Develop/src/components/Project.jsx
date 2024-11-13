@@ -16,4 +16,18 @@ const projects = [
     }
 ];
 
-export default projects;
+import React from 'react';
+
+export default function Project() {
+    return (
+        <div>
+            {projects.map((project, index) => (
+                <div key={index}>
+                    <h2>{project.name}</h2>
+                    <img src={project.image} alt={project.name} />
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            ))}
+        </div>
+    );
+};
