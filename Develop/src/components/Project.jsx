@@ -1,8 +1,8 @@
 const projects = [
     {
-        name: "Project One",
-        image: "path/to/project-one-image.jpg",
-        link: "https://link-to-project-one.com"
+        name: "React Portfolio (this website)",
+        image: "/photos/ReactPort.png",
+        link: "https://github.com/ElBoyTM/React-Portfolio"
     },
     {
         name: "Project Two",
@@ -21,9 +21,8 @@ export default function Project() {
         <div>
             {projects.map((project, index) => (
                 <div key={index}>
-                    <h2>{project.name}</h2>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a>
                     <img src={project.image} alt={project.name} />
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
             ))}
         </div>
