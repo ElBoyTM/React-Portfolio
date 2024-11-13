@@ -1,0 +1,8 @@
+#projectPhoto {
+    max-width: 40rem;
+    border: 5px solid #f0f0f0;
+}
+
+#projectLink {
+    display: block;
+}

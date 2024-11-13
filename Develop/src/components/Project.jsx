@@ -1,3 +1,5 @@
+import './Project.css';
+
 const projects = [
     {
         name: "React Portfolio (this website)",
@@ -21,8 +23,8 @@ export default function Project() {
         <div>
             {projects.map((project, index) => (
                 <div key={index}>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a>
-                    <img src={project.image} alt={project.name} />
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" id="projectLink">{project.name}</a>
+                    <img src={project.image} alt={project.name} id="projectPhoto" />
                 </div>
             ))}
         </div>
