@@ -12,9 +12,9 @@ const projects = [
         link: "https://github.com/ElBoyTM/Employee-Tracker-2"
     },
     {
-        name: "Project Three",
-        image: "path/to/project-three-image.jpg",
-        link: "https://link-to-project-three.com"
+        name: "Weather Dashboard",
+        image: "/photos/WeatherDash.png",
+        link: "https://github.com/ElBoyTM/Weather-Dashboard"
     }
 ];
 
