@@ -7,9 +7,9 @@ const projects = [
         link: "https://github.com/ElBoyTM/React-Portfolio"
     },
     {
-        name: "Project Two",
-        image: "path/to/project-two-image.jpg",
-        link: "https://link-to-project-two.com"
+        name: "Employee Tracker",
+        image: "/photos/EmpTrack.png",
+        link: "https://github.com/ElBoyTM/Employee-Tracker-2"
     },
     {
         name: "Project Three",
