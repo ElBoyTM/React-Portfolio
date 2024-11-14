@@ -1,15 +1,17 @@
-.nav-container {
+.nav-tabs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Spacing between nav items */
 }
-    
+
 .nav-item {
-    border: 0.125rem solid purple;
-    padding: 0.3125rem;
+    border: 2px solid purple;
+    padding: 0.5rem 1rem;
     display: inline-block;
     align-items: center;
-    margin-right: 0.9375rem;
-    min-width: 10rem;
+    min-width: 8rem; /* Adjusted min-width for better wrapping */
+    text-align: center;
 }
 
 .nav-item:hover {
@@ -20,10 +22,17 @@
 .nav-link {
     color: rgb(255, 5, 255);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem; /* Adjust font size for responsiveness */
 }
 
-.nav-item:hover .nav-link {
-    color: white;
-    background-color: purple;
+/* Adjust styling on smaller screens */
+@media (max-width: 600px) {
+    .nav-link {
+        font-size: 1.25rem; /* Reduce font size on smaller screens */
+    }
+
+    .nav-item {
+        min-width: 100%; /* Full-width buttons on smaller screens */
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
 }
