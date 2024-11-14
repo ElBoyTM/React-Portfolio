@@ -13,3 +13,12 @@ ul {
   padding: 2rem;
   text-align: center;
 }
+ @media (max-width: 1000px) {
+  header {
+    font-size: 0.5rem;
+  }
+
+  header img {
+    width: 100%;
+  }
+}
