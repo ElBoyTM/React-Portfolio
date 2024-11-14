@@ -15,6 +15,21 @@ const projects = [
         name: "Weather Dashboard",
         image: "/photos/WeatherDash.png",
         link: "https://github.com/ElBoyTM/Weather-Dashboard"
+    },
+    {
+        name: "Vehicle Builder",
+        image: "/photos/Vehicle.png",
+        link: "https://github.com/ElBoyTM/vehicles"
+    },
+    {
+        name: "README Generator",
+        image: "/photos/README.png",
+        link: "https://github.com/ElBoyTM/README-Generator"
+    },
+    {
+        name: "Phoebe's Flowers (group project)",
+        image: "/photos/Phoebe.png",
+        link: "https://github.com/ElBoyTM/Phoebe-s-Flowers"
     }
 ];
 
