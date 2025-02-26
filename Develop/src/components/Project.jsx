@@ -50,6 +50,11 @@ const projects = [
         name: "Social Network API",
         image: "/photos/SocialNetwork.png",
         link: "https://github.com/ElBoyTM/Social-Network-API"
+    },
+    {
+        name: "MERN Book Search Engine",
+        image: "/photos/BookSearch.png",
+        link: "https://github.com/ElBoyTM/MERN-Book-Search-Engine"
     }
 ];
 
