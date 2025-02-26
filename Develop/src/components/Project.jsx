@@ -35,6 +35,11 @@ const projects = [
         name: "Candidate Search",
         image: "/photos/CandidateSearch.png",
         link: "https://github.com/ElBoyTM/Candidate-Search"
+    },
+    {
+        name: "Kanban Board",
+        image: "/photos/Kanban.png",
+        link: "https://github.com/ElBoyTM/Kanban-Board"
     }
 ];
 
