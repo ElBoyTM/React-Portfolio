@@ -55,6 +55,11 @@ const projects = [
         name: "MERN Book Search Engine",
         image: "/photos/BookSearch.png",
         link: "https://github.com/ElBoyTM/MERN-Book-Search-Engine"
+    },
+    {
+        name: "ShowFinder (group project)",
+        image: "/photos/ShowFinder.png",
+        link: "https://github.com/JaceG/ShowFinder"
     }
 ];
 
