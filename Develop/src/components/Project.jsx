@@ -45,6 +45,11 @@ const projects = [
         name: "Chartz (group project)",
         image: "/photos/Chartz.png",
         link: "https://github.com/MichaelaHunt/Chartz"
+    },
+    {
+        name: "Social Network API",
+        image: "/photos/SocialNetwork.png",
+        link: "https://github.com/ElBoyTM/Social-Network-API"
     }
 ];
 
