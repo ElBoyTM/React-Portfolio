@@ -40,6 +40,11 @@ const projects = [
         name: "Kanban Board",
         image: "/photos/Kanban.png",
         link: "https://github.com/ElBoyTM/Kanban-Board"
+    },
+    {
+        name: "Chartz (group project)",
+        image: "/photos/Chartz.png",
+        link: "https://github.com/MichaelaHunt/Chartz"
     }
 ];
 
